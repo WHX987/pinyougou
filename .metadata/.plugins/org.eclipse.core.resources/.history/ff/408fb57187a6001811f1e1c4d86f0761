@@ -1,0 +1,48 @@
+package com.pinyougou.test;
+
+import java.math.BigDecimal;
+
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.solr.core.SolrTemplate;
+import org.springframework.test.context.ContextConfiguration;
+import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
+
+import cn.itcast.pojo.TbItem;
+
+@RunWith(SpringJUnit4ClassRunner.class)
+@ContextConfiguration(locations="classpath:applicationContext-solr.xml")
+public class TestTemplate {
+	
+	@Autowired
+	private SolrTemplate solrTemplate;
+	
+	
+	/**
+	 * 添加和修改的方法（用的是同一个）
+	 */
+	@Test
+	public void add() {
+		 TbItem item = new TbItem();
+		 item.setId(1L);
+		 item.setBrand("小米");
+		 item.setCategory("手机");
+		 item.setSeller("小米专卖店");
+		 item.setPrice(new BigDecimal(1999));
+		 item.setTitle("小米10");
+		 item.setGoodsId(1L);
+		 solrTemplate.saveBean(item);
+		 solrTemplate.commit();
+	}
+	
+	/**
+	 * 按主键查询
+	 */
+	@Test
+	public void findById() {
+		TbItem item = solrTemplate.getById(1, TbItem.class);
+		System.out.println(item.getTitle());
+	}
+
+}

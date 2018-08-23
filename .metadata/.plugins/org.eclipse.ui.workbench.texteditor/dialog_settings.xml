@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="false" key="isRegEx"/>
+		<item value="add" key="selection"/>
+		<item value="false" key="casesensitive"/>
+		<item value="false" key="incremental"/>
+		<item value="true" key="wrap"/>
+		<item value="false" key="wholeword"/>
+		<list key="findhistory">
+			<item value="add"/>
+			<item value="轮播"/>
+			<item value="图片"/>
+			<item value="content_category.html"/>
+			<item value="typeTemplateService"/>
+			<item value="uploadService"/>
+			<item value="新建"/>
+			<item value="商品图片"/>
+			<item value="颜色"/>
+			<item value="class=&quot;form-control&quot;"/>
+			<item value="一级"/>
+			<item value="保存"/>
+			<item value="findParentId"/>
+			<item value="注销"/>
+			<item value="chendahai"/>
+		</list>
+		<list key="replacehistory">
+			<item value="{{loginName}}"/>
+			<item value="{{}}"/>
+			<item value="reloadList"/>
+			<item value="typeTemplate"/>
+			<item value="typeTemplateMapper"/>
+			<item value="TbTypeTemplate"/>
+			<item value="typeTemplateService"/>
+			<item value="specificationController"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item value="356" key="DIALOG_WIDTH"/>
+		<item value="1|Microsoft YaHei UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Microsoft YaHei UI" key="DIALOG_FONT_NAME"/>
+		<item value="454" key="DIALOG_HEIGHT"/>
+		<item value="1259" key="DIALOG_X_ORIGIN"/>
+		<item value="166" key="DIALOG_Y_ORIGIN"/>
+	</section>
+</section>

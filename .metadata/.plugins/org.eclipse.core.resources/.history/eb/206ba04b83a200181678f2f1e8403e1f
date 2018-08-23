@@ -1,0 +1,6 @@
+app.service("uploadService",function($http){
+	this.uploadFile=function(){
+		var formData = new formData();
+		formData.append("file",file.files[0]);
+	}
+})

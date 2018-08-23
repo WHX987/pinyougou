@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="pinyougou-sellergoods-service"/>
+<aop-project name="pinyougou-portal-web"/>
+<aop-project name="pinyougou-manager-web"/>
+<aop-project name="pinyougou-content-service"/>
+<aop-project name="pinyougou-shop-web"/>
+</aop-reference-model>

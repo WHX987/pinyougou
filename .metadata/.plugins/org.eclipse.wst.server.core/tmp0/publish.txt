@@ -1,0 +1,8 @@
+#Tomcat publish data
+#Fri Aug 10 10:41:22 CST 2018
+org.eclipse.jst.j2ee.server\:pinyougou-pojo=C\:\\develop\\apache-tomcat-7.0.88-windows-x64\\apache-tomcat-7.0.88\\webapps\\pinyougou-sellergoods-service\\WEB-INF\\lib\\pinyougou-pojo-0.0.1-SNAPSHOT.jar
+org.eclipse.jst.jee.server\:/binary\:C\:\\develop\\MavenRepository\\org\\springframework\\spring-web\\4.2.4.RELEASE\\spring-web-4.2.4.RELEASE.jar=C\:\\develop\\apache-tomcat-7.0.88-windows-x64\\apache-tomcat-7.0.88\\webapps\\pinyougou-sellergoods-service\\WEB-INF\\lib\\spring-web-4.2.4.RELEASE.jar
+org.eclipse.jst.j2ee.server\:pinyougou-dao=C\:\\develop\\apache-tomcat-7.0.88-windows-x64\\apache-tomcat-7.0.88\\webapps\\pinyougou-sellergoods-service\\WEB-INF\\lib\\pinyougou-dao-0.0.1-SNAPSHOT.jar
+org.eclipse.jst.j2ee.server\:pinyougou-sellergoods-interface=C\:\\develop\\apache-tomcat-7.0.88-windows-x64\\apache-tomcat-7.0.88\\webapps\\pinyougou-sellergoods-service\\WEB-INF\\lib\\pinyougou-sellergoods-interface-0.0.1-SNAPSHOT.jar
+org.eclipse.jst.jee.server\:pinyougou-sellergoods-service=C\:\\develop\\apache-tomcat-7.0.88-windows-x64\\apache-tomcat-7.0.88\\webapps\\pinyougou-sellergoods-service
+org.eclipse.jst.jee.server\:pinyougou-manager-web=C\:\\develop\\apache-tomcat-7.0.88-windows-x64\\apache-tomcat-7.0.88\\webapps\\pinyougou-manager-web
